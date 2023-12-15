@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -255,13 +256,12 @@ header .container {
   box-shadow: 0px 3px 6px var(--pink);
   opacity: 1;
   z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .circle::after {
-  content: "";
-  background: url(../images/Icon\ Arrow\ Down.svg) 0% 0% no-repeat padding-box;
-  background-size: contain;
-  height: 21.62px;
-  width: 21.08px;
+  content: url(../images/Icon\ Arrow\ Down.svg);
   z-index: 3;
 }
 
